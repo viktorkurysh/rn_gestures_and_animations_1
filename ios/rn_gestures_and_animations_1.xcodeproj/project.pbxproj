@@ -45,7 +45,7 @@
 		00E356EE1AD99517003FC87E /* rn_gestures_and_animations_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rn_gestures_and_animations_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* rn_gestures_and_animations_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rn_gestures_and_animations_1Tests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* rn_gestures_and_animations_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rn_gestures_and_animations_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Gestures & Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gestures & Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rn_gestures_and_animations_1/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rn_gestures_and_animations_1/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rn_gestures_and_animations_1/Images.xcassets; sourceTree = "<group>"; };
@@ -161,7 +161,6 @@
 				4D58E6110D92E485FC5DC838 /* Pods-rn_gestures_and_animations_1-tvOSTests.debug.xcconfig */,
 				7B2FD8D17070D647C6F86E2B /* Pods-rn_gestures_and_animations_1-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -190,7 +189,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* rn_gestures_and_animations_1.app */,
+				13B07F961A680F5B00A75B9A /* Gestures & Animations.app */,
 				00E356EE1AD99517003FC87E /* rn_gestures_and_animations_1Tests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* rn_gestures_and_animations_1-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* rn_gestures_and_animations_1-tvOSTests.xctest */,
@@ -239,7 +238,7 @@
 			);
 			name = rn_gestures_and_animations_1;
 			productName = rn_gestures_and_animations_1;
-			productReference = 13B07F961A680F5B00A75B9A /* rn_gestures_and_animations_1.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Gestures & Animations.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* rn_gestures_and_animations_1-tvOS */ = {
@@ -665,7 +664,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rn_gestures_and_animations_1;
+				PRODUCT_NAME = "Gestures & Animations";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -687,7 +686,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rn_gestures_and_animations_1;
+				PRODUCT_NAME = "Gestures & Animations";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
