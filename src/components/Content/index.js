@@ -10,6 +10,11 @@ const thumbnails = [
     title: 'Clock Values & Identities',
     source: require('rn_gestures_and_animations_1/assets/clock-values-and-identities.png'),
   },
+  {
+    screen: 'Transitions',
+    title: 'Transitions',
+    source: require('rn_gestures_and_animations_1/assets/transitions.png'),
+  },
 ];
 
 export default function () {

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "rn_gestures_and_animations_1.app"
+               BuildableName = "Reanimated.app"
                BlueprintName = "rn_gestures_and_animations_1"
                ReferencedContainer = "container:rn_gestures_and_animations_1.xcodeproj">
             </BuildableReference>
@@ -55,7 +55,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rn_gestures_and_animations_1.app"
+            BuildableName = "Reanimated.app"
             BlueprintName = "rn_gestures_and_animations_1"
             ReferencedContainer = "container:rn_gestures_and_animations_1.xcodeproj">
          </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rn_gestures_and_animations_1.app"
+            BuildableName = "Reanimated.app"
             BlueprintName = "rn_gestures_and_animations_1"
             ReferencedContainer = "container:rn_gestures_and_animations_1.xcodeproj">
          </BuildableReference>

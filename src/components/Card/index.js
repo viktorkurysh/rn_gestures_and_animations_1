@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   container: {
     width: CARD_WIDTH,
     height: CARD_HEIGHT,
-    borderRadius: 18,
+    borderRadius: 12,
   },
   flexibleContainer: {
     flex: 1,
