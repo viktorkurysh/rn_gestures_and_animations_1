@@ -6,6 +6,7 @@ import {
   mix,
   transformOrigin,
 } from 'react-native-redash/lib/module/v1';
+import Analytics from 'appcenter-analytics';
 import Card, {cards, CARD_WIDTH} from 'src/components/Card';
 import Button from 'src/components/Button';
 import styles from './styles';
@@ -16,6 +17,10 @@ const UseTransition = () => {
     duration: 400,
     easing: Easing.inOut(Easing.ease),
   });
+
+  React.useEffect(() => {
+    Analytics.trackEvent('My custom event');
+  }, []);
 
   return (
     <View style={styles.container}>
