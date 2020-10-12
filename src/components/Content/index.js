@@ -15,6 +15,11 @@ const thumbnails = [
     title: 'Transitions',
     source: require('rn_gestures_and_animations_1/assets/transitions.png'),
   },
+  {
+    screen: 'UseTransition',
+    title: 'useTransition()',
+    source: require('rn_gestures_and_animations_1/assets/useTransition.png'),
+  },
 ];
 
 export default function () {

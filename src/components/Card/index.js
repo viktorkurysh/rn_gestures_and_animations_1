@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {Dimensions, Image, StyleSheet} from 'react-native';
 import Animated from 'react-native-reanimated';
-
 import StyleGuide from 'src/constants/styleGuide';
 
 export const cards = [

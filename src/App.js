@@ -7,6 +7,7 @@ import styleGuide from 'src/constants/styleGuide';
 import Content from 'src/components/Content';
 import ClockValuesAndIdentities from 'src/components/ClockValuesAndIdentities';
 import Transitions from 'src/components/Transitions';
+import UseTransition from 'src/components/UseTransition';
 
 const Stack = createStackNavigator();
 
@@ -62,6 +63,17 @@ function App() {
               headerStyle: styles.header,
               headerTintColor: '#FFF',
               title: 'Transitions',
+            }}
+          />
+          <Stack.Screen
+            name="UseTransition"
+            component={UseTransition}
+            options={{
+              headerLeft: null,
+              headerTitleAlign: 'center',
+              headerStyle: styles.header,
+              headerTintColor: '#FFF',
+              title: 'useTransition()',
             }}
           />
         </Stack.Navigator>
